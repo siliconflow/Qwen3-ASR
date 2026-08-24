@@ -22,3 +22,47 @@ wheels/
 .vscode/
 venv/
 env/
+
+# OS / editor / cache
+.DS_Store
+.claude/
+
+# Deployment configs (private registry references, not for public fork)
+siliconflow-deployment*.yaml
+siliconflow-deployment*.yaml.*
+siliconflow-deployment*.backup
+qwen3-asr-deploy-schema.yaml
+push-images-to-siliconflow.sh
+monitor-push-progress.sh
+verify_all_fixes.sh
+proxy/build-image.sh
+
+# Local docs / notes / scratch files (not part of upstream project)
+CLAUDE.md
+COMPLETE_SUMMARY.md
+DEPLOYMENT_CHECKLIST.md
+FINAL_UPDATE_SUMMARY.md
+FIX_MULTIPLE_TAGS.md
+GPU_DEPLOYMENT_ANALYSIS.md
+INJECTION_REPETITION_FIX_GUIDE.md
+MEETING_NOTES.md
+MULTILANG_SUPPORT.md
+PUSH_OPTIMIZATION.md
+QUICK_REFERENCE.md
+README_UPDATES.md
+REPETITION_DETECTION_ANALYSIS.md
+SILICONFLOW_ASR_DEPLOYMENT_REQUIREMENTS.md
+SILICONFLOW_DEPLOYMENT_GUIDE.md
+SKOPEO_PUSH_GUIDE.md
+TIMEOUT_FIX.md
+UPDATE_SUMMARY.md
+conversation-*.txt
+2026-*.txt
+生成结果处理逻辑_*.txt
+siliconflow-evaluation-report.json
+
+# Local ad-hoc test scripts (not part of project test suite)
+test_all_features.py
+test_proxy_repetition_fix.py
+test_real_speech_scenarios.py
+test_repetition_logic.py
